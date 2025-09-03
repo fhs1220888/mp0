@@ -1,1 +1,52 @@
-/* Your CSS here. */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 750px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #c8f5ff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h1 {
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.card p {
+    font-size: 16px;
+    color: #1c1b1b;
+    margin: 20px auto;
+    line-height: 1.6;
+    max-width: 80%;
+    text-align: center;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.card a:hover {
+    background-color: #0056b3;
+}
+
